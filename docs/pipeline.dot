@@ -1,0 +1,40 @@
+// Pipeline structure (processes of pipeline/main.nf). Render: dot -Tpng -Gdpi=150 pipeline.dot -o pipeline.png
+digraph pipeline {
+  rankdir=TB; nodesep=0.35; ranksep=0.45;
+  node [fontname="Helvetica", fontsize=11];
+  edge [color="#555555", arrowsize=0.7];
+
+  node [shape=note, style=filled, fillcolor="#eef3fb", color="#4c78a8"];
+  gtf  [label="GENCODE v44 lift37 GTF\n(EBI FTP)"];
+  rt   [label="108 ENCODE RT tracks\nwavelet-smoothed, hg19"];
+  rna  [label="104 ENCODE RNA-seq\ngene quantifications"];
+  zen  [label="Drug-treatment Repli-seq\nZenodo 10.5281/zenodo.19093559"];
+  uw   [label="96 UW fraction signals\n(UCSC ENCODE archive)"];
+
+  node [shape=box, style="rounded,filled", fillcolor="#ffffff", color="#333333"];
+  GENESETS     [label="GENESETS\nprotein-coding + 66 RD histone genes"];
+  GENE_RT      [label="GENE_RT\nRT score per gene, TSS ± 5 kb"];
+  RNASEQ_TOP5  [label="RNASEQ_TOP5\ntop 5% expressed genes"];
+  EXTRACT_DRUG [label="EXTRACT_DRUG\n24 fraction bigWigs"];
+  WAVELET_DRUG [label="WAVELET_DRUG\nweighted average + J7 wavelet"];
+  DRUG_GENE_RT [label="DRUG_GENE_RT\nRT score per gene, gene body"];
+  ASSEMBLE     [label="ASSEMBLE\nnotebook inputs"];
+  NOTEBOOK     [label="NOTEBOOK\nanalysis.ipynb, sections 1-5", style="rounded,filled,bold", fillcolor="#fdf0e6", color="#d35400"];
+
+  node [shape=box, style="rounded,dashed", color="#888888", fontcolor="#555555"];
+  REPROCESS_UW [label="REPROCESS_UW (QC)\nrebuild 16 UW tracks"];
+  QC_TRACKS    [label="QC_TRACKS (QC)\nreleased vs rebuilt"];
+
+  node [shape=folder, style=filled, fillcolor="#f3f3f3", color="#777777", fontcolor="#000000"];
+  figs [label="figures/"];
+  qc   [label="figures/qc/"];
+
+  gtf -> GENESETS;
+  rt  -> GENE_RT;  GENESETS -> GENE_RT;
+  rna -> RNASEQ_TOP5; GENESETS -> RNASEQ_TOP5;
+  zen -> EXTRACT_DRUG -> WAVELET_DRUG -> DRUG_GENE_RT; GENESETS -> DRUG_GENE_RT;
+  GENE_RT -> ASSEMBLE; RNASEQ_TOP5 -> ASSEMBLE; DRUG_GENE_RT -> ASSEMBLE; GENESETS -> ASSEMBLE;
+  ASSEMBLE -> NOTEBOOK -> figs;
+  uw -> REPROCESS_UW -> QC_TRACKS; rt -> QC_TRACKS [style=dashed];
+  QC_TRACKS -> qc;
+}

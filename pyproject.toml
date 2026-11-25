@@ -1,0 +1,19 @@
+[project]
+name = "hlb-rt-paper"
+version = "1.0.0"
+description = "Replication timing of replication-dependent histone genes across ENCODE cell lines"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.4.4",
+    "pandas==3.0.2",
+    "pyarrow==20.0.0",
+    "pybigwig==0.3.25",
+    "matplotlib==3.10.9",
+    "seaborn==0.13.2",
+    "nbconvert>=7.17.2",
+    "ipykernel>=7.4.0",
+    "pywavelets>=1.10.0",
+]
+
+[tool.uv]
+package = false

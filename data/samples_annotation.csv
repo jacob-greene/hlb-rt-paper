@@ -1,0 +1,2 @@
+resource,release,assembly,file_name,md5sum,url
+GENCODE,v44 basic (lift37),GRCh37,gencode.v44lift37.basic.annotation.gtf.gz,74b40c9bdb697cb085b005555eeef1a7,https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_44/GRCh37_mapping/gencode.v44lift37.basic.annotation.gtf.gz

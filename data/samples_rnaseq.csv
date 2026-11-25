@@ -1,0 +1,105 @@
+cell_line,rna_experiment,rna_assay,file_accession,assembly,annotation,output_type,md5sum,file_size,url
+A549,ENCSR742VGF,polyA plus RNA-seq,ENCFF556BPE,GRCh38,V29,gene quantifications,ff270a4c0fc159da355859a74849fcda,10969082,https://www.encodeproject.org/files/ENCFF556BPE/@@download/ENCFF556BPE.tsv
+A549,ENCSR742VGF,polyA plus RNA-seq,ENCFF631VWV,GRCh38,V29,gene quantifications,b60eb719b236a1a07badf935992a393d,11045702,https://www.encodeproject.org/files/ENCFF631VWV/@@download/ENCFF631VWV.tsv
+A549,ENCSR742VGF,polyA plus RNA-seq,ENCFF449DIX,GRCh38,V29,gene quantifications,7acbb69f9f7d41a2f791f748541214b7,10968633,https://www.encodeproject.org/files/ENCFF449DIX/@@download/ENCFF449DIX.tsv
+BJ,ENCSR000COP,polyA plus RNA-seq,ENCFF005WBQ,GRCh38,V29,gene quantifications,1cf07b052efa16692b80c14ecc1ab4bd,10892295,https://www.encodeproject.org/files/ENCFF005WBQ/@@download/ENCFF005WBQ.tsv
+BJ,ENCSR000COP,polyA plus RNA-seq,ENCFF477JDG,GRCh38,V29,gene quantifications,e54071a9dc2bbd41c049ddfbf666140a,10866720,https://www.encodeproject.org/files/ENCFF477JDG/@@download/ENCFF477JDG.tsv
+BJ,ENCSR000COP,polyA plus RNA-seq,ENCFF839MWS,GRCh38,V24,gene quantifications,552f8bf60e63763cf4c4dc6f424b2b3d,9881504,https://www.encodeproject.org/files/ENCFF839MWS/@@download/ENCFF839MWS.tsv
+BJ,ENCSR000COP,polyA plus RNA-seq,ENCFF800TGS,GRCh38,V24,gene quantifications,1dd57996cf8adaf850f1e48c6882bcf7,9900110,https://www.encodeproject.org/files/ENCFF800TGS/@@download/ENCFF800TGS.tsv
+BJ,ENCSR000COP,polyA plus RNA-seq,ENCFF322LVK,hg19,V19,gene quantifications,b3ab40f77b6ff7707bd93cdf58a240db,9549731,https://www.encodeproject.org/files/ENCFF322LVK/@@download/ENCFF322LVK.tsv
+BJ,ENCSR000COP,polyA plus RNA-seq,ENCFF836HXE,hg19,V19,gene quantifications,7f83ad89b53dc21043f3f57ce1a4f790,9533168,https://www.encodeproject.org/files/ENCFF836HXE/@@download/ENCFF836HXE.tsv
+Caki2,ENCSR584JXD,total RNA-seq,ENCFF308SRM,GRCh38,V29,gene quantifications,a2a9c0cb95981ecf184adab017304e03,10829559,https://www.encodeproject.org/files/ENCFF308SRM/@@download/ENCFF308SRM.tsv
+Caki2,ENCSR584JXD,total RNA-seq,ENCFF685WJV,GRCh38,V29,gene quantifications,5eb62a214db1abc18d83efcbecb94816,10847316,https://www.encodeproject.org/files/ENCFF685WJV/@@download/ENCFF685WJV.tsv
+Caki2,ENCSR584JXD,total RNA-seq,ENCFF606LMD,GRCh38,V24,gene quantifications,a74394f23f18aaa05360dcdebb6d521b,9854571,https://www.encodeproject.org/files/ENCFF606LMD/@@download/ENCFF606LMD.tsv
+Caki2,ENCSR584JXD,total RNA-seq,ENCFF299ELJ,GRCh38,V24,gene quantifications,da527ae3cb20f7e5d1684797d008f2e7,9869704,https://www.encodeproject.org/files/ENCFF299ELJ/@@download/ENCFF299ELJ.tsv
+Caki2,ENCSR584JXD,total RNA-seq,ENCFF041DAC,hg19,V19,gene quantifications,47ea5dcd337439455e046d8ac0fce011,9508041,https://www.encodeproject.org/files/ENCFF041DAC/@@download/ENCFF041DAC.tsv
+Caki2,ENCSR584JXD,total RNA-seq,ENCFF088TZM,hg19,V19,gene quantifications,a14871086aa62ae6efe1af93474e7025,9522649,https://www.encodeproject.org/files/ENCFF088TZM/@@download/ENCFF088TZM.tsv
+G401,ENCSR653DFZ,total RNA-seq,ENCFF832XBO,GRCh38,V29,gene quantifications,02de69c27b3023c07909d7c9df7cf3a6,10851479,https://www.encodeproject.org/files/ENCFF832XBO/@@download/ENCFF832XBO.tsv
+G401,ENCSR653DFZ,total RNA-seq,ENCFF921IWN,GRCh38,V29,gene quantifications,133d711eab4e2ca267e9df8c08df78d8,10858587,https://www.encodeproject.org/files/ENCFF921IWN/@@download/ENCFF921IWN.tsv
+G401,ENCSR653DFZ,total RNA-seq,ENCFF546ROR,GRCh38,V24,gene quantifications,0ee70ad3ac06a6c7884a0faecf10184f,9878732,https://www.encodeproject.org/files/ENCFF546ROR/@@download/ENCFF546ROR.tsv
+G401,ENCSR653DFZ,total RNA-seq,ENCFF362OWV,GRCh38,V24,gene quantifications,748fa69bd1d603523d6b0f4646cfa4bf,9874187,https://www.encodeproject.org/files/ENCFF362OWV/@@download/ENCFF362OWV.tsv
+G401,ENCSR653DFZ,total RNA-seq,ENCFF904LJF,hg19,V19,gene quantifications,36e55e6140522bcbcb40febf0a152d63,9526860,https://www.encodeproject.org/files/ENCFF904LJF/@@download/ENCFF904LJF.tsv
+G401,ENCSR653DFZ,total RNA-seq,ENCFF748MDN,hg19,V19,gene quantifications,407864aaa18ab0c09ec1076ee704b4b9,9532244,https://www.encodeproject.org/files/ENCFF748MDN/@@download/ENCFF748MDN.tsv
+GM12878,ENCSR000AEF,polyA plus RNA-seq,ENCFF866QJL,GRCh38,V29,gene quantifications,a303e4a7af935fdc7d1290b6f0d39d7a,10824940,https://www.encodeproject.org/files/ENCFF866QJL/@@download/ENCFF866QJL.tsv
+GM12878,ENCSR000AEF,polyA plus RNA-seq,ENCFF431UBR,GRCh38,V29,gene quantifications,c628a83283dcb325633b7b8ac94e5c4b,10911658,https://www.encodeproject.org/files/ENCFF431UBR/@@download/ENCFF431UBR.tsv
+GM12878,ENCSR000AEF,polyA plus RNA-seq,ENCFF644DIQ,GRCh38,V24,gene quantifications,0e3c3198fcac36a0cc65599c98dfa1ab,9844616,https://www.encodeproject.org/files/ENCFF644DIQ/@@download/ENCFF644DIQ.tsv
+GM12878,ENCSR000AEF,polyA plus RNA-seq,ENCFF456WWG,GRCh38,V24,gene quantifications,155f5ba71e4dd2105f91423d3894c218,9913638,https://www.encodeproject.org/files/ENCFF456WWG/@@download/ENCFF456WWG.tsv
+GM12878,ENCSR000AEF,polyA plus RNA-seq,ENCFF392VPX,hg19,V19,gene quantifications,c8d30e67376c1ea1d340533d24c2767a,9481162,https://www.encodeproject.org/files/ENCFF392VPX/@@download/ENCFF392VPX.tsv
+GM12878,ENCSR000AEF,polyA plus RNA-seq,ENCFF023VHU,hg19,V19,gene quantifications,f8c7ad83a5eedd8b71b2504f4eaee078,9545952,https://www.encodeproject.org/files/ENCFF023VHU/@@download/ENCFF023VHU.tsv
+H1,ENCSR000BZU,polyA plus RNA-seq,ENCFF006IHP,GRCh38,V29,gene quantifications,dd69065c8ddee88bdbef8914bfe6ef10,11098312,https://www.encodeproject.org/files/ENCFF006IHP/@@download/ENCFF006IHP.tsv
+H1,ENCSR000BZU,polyA plus RNA-seq,ENCFF741PUY,GRCh38,V24,gene quantifications,e8948a95785763f7db983e2a12b0616e,10088014,https://www.encodeproject.org/files/ENCFF741PUY/@@download/ENCFF741PUY.tsv
+H1,ENCSR000BZU,polyA plus RNA-seq,ENCFF598ARA,hg19,V19,gene quantifications,7b34f915b954ac46331c0c823036ab86,9720922,https://www.encodeproject.org/files/ENCFF598ARA/@@download/ENCFF598ARA.tsv
+H7,ENCSR490SQH,total RNA-seq,ENCFF872PGH,GRCh38,V29,gene quantifications,cae3702e284f7acfc3d97e64ce85a0f8,10893777,https://www.encodeproject.org/files/ENCFF872PGH/@@download/ENCFF872PGH.tsv
+H7,ENCSR490SQH,total RNA-seq,ENCFF989CEV,GRCh38,V29,gene quantifications,39d50801f5356d4dd1ee0a9cd7ae9464,10916504,https://www.encodeproject.org/files/ENCFF989CEV/@@download/ENCFF989CEV.tsv
+H7,ENCSR490SQH,total RNA-seq,ENCFF199UNP,GRCh38,V24,gene quantifications,d09c24c96d2a14abe84f64c4c46bf210,9920056,https://www.encodeproject.org/files/ENCFF199UNP/@@download/ENCFF199UNP.tsv
+H7,ENCSR490SQH,total RNA-seq,ENCFF463QAU,GRCh38,V24,gene quantifications,f4c4662a67e3670f5718375b73df51b1,9901233,https://www.encodeproject.org/files/ENCFF463QAU/@@download/ENCFF463QAU.tsv
+H7,ENCSR490SQH,total RNA-seq,ENCFF152HJN,hg19,V19,gene quantifications,1edc01dfefac2951a5e3da70047ddcd1,9569794,https://www.encodeproject.org/files/ENCFF152HJN/@@download/ENCFF152HJN.tsv
+H7,ENCSR490SQH,total RNA-seq,ENCFF767WGV,hg19,V19,gene quantifications,72fa65a0f28b1e8b0d7487569b0209a4,9552440,https://www.encodeproject.org/files/ENCFF767WGV/@@download/ENCFF767WGV.tsv
+H9,ENCSR712BRU,total RNA-seq,ENCFF274WSK,GRCh38,V29,gene quantifications,9a921f8ddf298deb2cc804e59cf9807c,11047338,https://www.encodeproject.org/files/ENCFF274WSK/@@download/ENCFF274WSK.tsv
+H9,ENCSR712BRU,total RNA-seq,ENCFF216CFE,GRCh38,V29,gene quantifications,29953c40aaf05f0e3ba34638abf0149d,11045102,https://www.encodeproject.org/files/ENCFF216CFE/@@download/ENCFF216CFE.tsv
+HeLa-S3,ENCSR000EYQ,polyA plus RNA-seq,ENCFF496CRF,GRCh38,V29,gene quantifications,f37a8afc0c5414ae4ee1c97d702a0078,10918853,https://www.encodeproject.org/files/ENCFF496CRF/@@download/ENCFF496CRF.tsv
+HeLa-S3,ENCSR000EYQ,polyA plus RNA-seq,ENCFF294GCU,GRCh38,V29,gene quantifications,d7cf957fd32cb389d2bbe6eb5e905c3f,10922307,https://www.encodeproject.org/files/ENCFF294GCU/@@download/ENCFF294GCU.tsv
+HepG2,ENCSR000EYR,polyA plus RNA-seq,ENCFF695GMA,GRCh38,V29,gene quantifications,95fe96703e65e759585b1cdb270df08d,10935359,https://www.encodeproject.org/files/ENCFF695GMA/@@download/ENCFF695GMA.tsv
+HepG2,ENCSR000EYR,polyA plus RNA-seq,ENCFF292KIL,GRCh38,V29,gene quantifications,dbe56b29db7668c38041efcc2ac2742f,10889069,https://www.encodeproject.org/files/ENCFF292KIL/@@download/ENCFF292KIL.tsv
+IMR-90,ENCSR000CTQ,polyA plus RNA-seq,ENCFF958WFW,GRCh38,V29,gene quantifications,ece0fcdab212b82b0fdbd06cc0274eee,10826472,https://www.encodeproject.org/files/ENCFF958WFW/@@download/ENCFF958WFW.tsv
+IMR-90,ENCSR000CTQ,polyA plus RNA-seq,ENCFF631BAG,GRCh38,V29,gene quantifications,dd9b9b192173016b88a27b280b00b8a9,10815641,https://www.encodeproject.org/files/ENCFF631BAG/@@download/ENCFF631BAG.tsv
+IMR-90,ENCSR000CTQ,polyA plus RNA-seq,ENCFF244VME,GRCh38,V24,gene quantifications,ee0b9af7c2656102876852912e782439,9851329,https://www.encodeproject.org/files/ENCFF244VME/@@download/ENCFF244VME.tsv
+IMR-90,ENCSR000CTQ,polyA plus RNA-seq,ENCFF118OFK,GRCh38,V24,gene quantifications,a29371af403fd6040ffb6ff55c05a3fd,9842744,https://www.encodeproject.org/files/ENCFF118OFK/@@download/ENCFF118OFK.tsv
+IMR-90,ENCSR000CTQ,polyA plus RNA-seq,ENCFF480FTB,hg19,V19,gene quantifications,7e8e1207a911f05a81bec365c1e6a6a8,9491950,https://www.encodeproject.org/files/ENCFF480FTB/@@download/ENCFF480FTB.tsv
+IMR-90,ENCSR000CTQ,polyA plus RNA-seq,ENCFF588AJG,hg19,V19,gene quantifications,80dc0d3a6bef0353fead91fc2aceaf0c,9482921,https://www.encodeproject.org/files/ENCFF588AJG/@@download/ENCFF588AJG.tsv
+K562,ENCSR000AEQ,polyA plus RNA-seq,ENCFF486DGZ,GRCh38,V29,gene quantifications,5e1a66346c50665923de1c1ecec0dac1,10973907,https://www.encodeproject.org/files/ENCFF486DGZ/@@download/ENCFF486DGZ.tsv
+K562,ENCSR000AEQ,polyA plus RNA-seq,ENCFF088LCK,GRCh38,V29,gene quantifications,c9e6fff7db88d5897feb1a90fa2c8814,10969816,https://www.encodeproject.org/files/ENCFF088LCK/@@download/ENCFF088LCK.tsv
+K562,ENCSR000AEQ,polyA plus RNA-seq,ENCFF026BMH,GRCh38,V24,gene quantifications,59f5aec3fdd6e3bbdaba4816c0340f4f,9967130,https://www.encodeproject.org/files/ENCFF026BMH/@@download/ENCFF026BMH.tsv
+K562,ENCSR000AEQ,polyA plus RNA-seq,ENCFF868MFR,GRCh38,V24,gene quantifications,de604e5f673316a3abbdefd0e0a21e08,9970694,https://www.encodeproject.org/files/ENCFF868MFR/@@download/ENCFF868MFR.tsv
+K562,ENCSR000AEQ,polyA plus RNA-seq,ENCFF489VUK,hg19,V19,gene quantifications,d3fd9ecf103073b78f6b6a89c770c07c,9588766,https://www.encodeproject.org/files/ENCFF489VUK/@@download/ENCFF489VUK.tsv
+K562,ENCSR000AEQ,polyA plus RNA-seq,ENCFF764ZIV,hg19,V19,gene quantifications,659e12ba38a788ff38c6fc2798c483c8,9592616,https://www.encodeproject.org/files/ENCFF764ZIV/@@download/ENCFF764ZIV.tsv
+MCF-7,ENCSR000CWQ,polyA plus RNA-seq,ENCFF251DYL,GRCh38,V29,gene quantifications,ccc06c4642f1757a30efb3caaf3a9e03,10971327,https://www.encodeproject.org/files/ENCFF251DYL/@@download/ENCFF251DYL.tsv
+MCF-7,ENCSR000CWQ,polyA plus RNA-seq,ENCFF555RJV,GRCh38,V29,gene quantifications,cdb6ec25c8dc0d26ecc84819300f39fd,10917548,https://www.encodeproject.org/files/ENCFF555RJV/@@download/ENCFF555RJV.tsv
+MCF-7,ENCSR000CWQ,polyA plus RNA-seq,ENCFF270SPQ,GRCh38,V29,gene quantifications,74c155e2d3cb2404d99d2c66b5e8f07b,10939135,https://www.encodeproject.org/files/ENCFF270SPQ/@@download/ENCFF270SPQ.tsv
+NCI-H460,ENCSR586SEE,polyA plus RNA-seq,ENCFF543BHV,GRCh38,V29,gene quantifications,07c53cd26653b3c68c97dbf4b8dd03ca,10776124,https://www.encodeproject.org/files/ENCFF543BHV/@@download/ENCFF543BHV.tsv
+NCI-H460,ENCSR586SEE,polyA plus RNA-seq,ENCFF322HJX,GRCh38,V24,gene quantifications,62ddf669f25939aeeae72196f88b5e1c,9813464,https://www.encodeproject.org/files/ENCFF322HJX/@@download/ENCFF322HJX.tsv
+NCI-H460,ENCSR586SEE,polyA plus RNA-seq,ENCFF377EHW,hg19,V19,gene quantifications,ac72baa7e90516fe3d87bf838a91a3ea,9470850,https://www.encodeproject.org/files/ENCFF377EHW/@@download/ENCFF377EHW.tsv
+SK-N-SH,ENCSR000BYL,polyA plus RNA-seq,ENCFF172AFC,GRCh38,V29,gene quantifications,53709a790f650a7bbdaa5dfe77ee7121,11176308,https://www.encodeproject.org/files/ENCFF172AFC/@@download/ENCFF172AFC.tsv
+SK-N-SH,ENCSR000BYL,polyA plus RNA-seq,ENCFF677KYO,GRCh38,V29,gene quantifications,6646bae77aaedaf1bd98415e867efed0,11176683,https://www.encodeproject.org/files/ENCFF677KYO/@@download/ENCFF677KYO.tsv
+SK-N-SH,ENCSR000BYL,polyA plus RNA-seq,ENCFF390KQP,GRCh38,V24,gene quantifications,f268e8e89c44271e71481fe23cb30eb2,10159212,https://www.encodeproject.org/files/ENCFF390KQP/@@download/ENCFF390KQP.tsv
+SK-N-SH,ENCSR000BYL,polyA plus RNA-seq,ENCFF067ZMG,GRCh38,V24,gene quantifications,76db68f404a3e64a52099d16ea9af095,10160071,https://www.encodeproject.org/files/ENCFF067ZMG/@@download/ENCFF067ZMG.tsv
+SK-N-SH,ENCSR000BYL,polyA plus RNA-seq,ENCFF433VEC,hg19,V19,gene quantifications,59f4258652be21762ca68a676d8ab575,9765306,https://www.encodeproject.org/files/ENCFF433VEC/@@download/ENCFF433VEC.tsv
+SK-N-SH,ENCSR000BYL,polyA plus RNA-seq,ENCFF181GAR,hg19,V19,gene quantifications,5b36715903851a38295944fc5a99f6d6,9766265,https://www.encodeproject.org/files/ENCFF181GAR/@@download/ENCFF181GAR.tsv
+T47D,ENCSR000BYF,polyA plus RNA-seq,ENCFF500MZV,GRCh38,V29,gene quantifications,5bec768a8943f1104dfa6fd950591641,11148520,https://www.encodeproject.org/files/ENCFF500MZV/@@download/ENCFF500MZV.tsv
+T47D,ENCSR000BYF,polyA plus RNA-seq,ENCFF382RSL,GRCh38,V29,gene quantifications,88921b38f256ef3582b7a68450353843,11187924,https://www.encodeproject.org/files/ENCFF382RSL/@@download/ENCFF382RSL.tsv
+T47D,ENCSR000BYF,polyA plus RNA-seq,ENCFF434IJR,GRCh38,V24,gene quantifications,e5965c3635959f676a83179f1298d2d0,10134492,https://www.encodeproject.org/files/ENCFF434IJR/@@download/ENCFF434IJR.tsv
+T47D,ENCSR000BYF,polyA plus RNA-seq,ENCFF627DOH,GRCh38,V24,gene quantifications,759a109930f290d72d8832dce1494b3d,10168385,https://www.encodeproject.org/files/ENCFF627DOH/@@download/ENCFF627DOH.tsv
+T47D,ENCSR000BYF,polyA plus RNA-seq,ENCFF440SGX,hg19,V19,gene quantifications,1caddb1469ad3072c3930a5661a45768,9741734,https://www.encodeproject.org/files/ENCFF440SGX/@@download/ENCFF440SGX.tsv
+T47D,ENCSR000BYF,polyA plus RNA-seq,ENCFF582ESW,hg19,V19,gene quantifications,ba5cdddf9a62cf4d0fc5401128f75605,9773663,https://www.encodeproject.org/files/ENCFF582ESW/@@download/ENCFF582ESW.tsv
+endodermal cell,ENCSR472PBS,polyA plus RNA-seq,ENCFF819DQO,GRCh38,V29,gene quantifications,11d8b8d85b405a10ea8d64c2fea5606d,10943899,https://www.encodeproject.org/files/ENCFF819DQO/@@download/ENCFF819DQO.tsv
+endodermal cell,ENCSR472PBS,polyA plus RNA-seq,ENCFF563QGW,GRCh38,V24,gene quantifications,1b645b5c2a076cebf681d9b4b853a4e3,9941616,https://www.encodeproject.org/files/ENCFF563QGW/@@download/ENCFF563QGW.tsv
+endodermal cell,ENCSR472PBS,polyA plus RNA-seq,ENCFF554OGZ,hg19,V19,gene quantifications,811ad082a82826331aa42ebac5c4dd77,9572966,https://www.encodeproject.org/files/ENCFF554OGZ/@@download/ENCFF554OGZ.tsv
+hematopoietic multipotent progenitor cell,ENCSR000CUA,total RNA-seq,ENCFF363CQN,GRCh38,V29,gene quantifications,106632ff6d09066a7699ad0c4beccb36,10854868,https://www.encodeproject.org/files/ENCFF363CQN/@@download/ENCFF363CQN.tsv
+hematopoietic multipotent progenitor cell,ENCSR000CUA,total RNA-seq,ENCFF115GKV,GRCh38,V24,gene quantifications,fbbfa9ce438e36fc7f82dd54ac34f524,9883938,https://www.encodeproject.org/files/ENCFF115GKV/@@download/ENCFF115GKV.tsv
+hematopoietic multipotent progenitor cell,ENCSR000CUA,total RNA-seq,ENCFF827LOA,hg19,V19,gene quantifications,511be39f6a2b01cbd5f7a25d38f702e7,9543191,https://www.encodeproject.org/files/ENCFF827LOA/@@download/ENCFF827LOA.tsv
+hepatocyte,ENCSR859HWB,polyA plus RNA-seq,ENCFF462HXM,GRCh38,V29,gene quantifications,4e1e64ea8be8d71da4cb2180c9846cdb,11048008,https://www.encodeproject.org/files/ENCFF462HXM/@@download/ENCFF462HXM.tsv
+hepatocyte,ENCSR859HWB,polyA plus RNA-seq,ENCFF497TJL,GRCh38,V29,gene quantifications,fd6217dc9eabe478275b24201dd5fe4e,11052999,https://www.encodeproject.org/files/ENCFF497TJL/@@download/ENCFF497TJL.tsv
+hepatocyte,ENCSR859HWB,polyA plus RNA-seq,ENCFF138JDF,GRCh38,V24,gene quantifications,207adb295f9fce908d3cdcbf75c2acf3,10025667,https://www.encodeproject.org/files/ENCFF138JDF/@@download/ENCFF138JDF.tsv
+hepatocyte,ENCSR859HWB,polyA plus RNA-seq,ENCFF797ZIB,GRCh38,V24,gene quantifications,004084524e676e30077d43c137b05f8b,10030113,https://www.encodeproject.org/files/ENCFF797ZIB/@@download/ENCFF797ZIB.tsv
+hepatocyte,ENCSR859HWB,polyA plus RNA-seq,ENCFF973KGN,hg19,V19,gene quantifications,841c83e9a08779d874ad0b0a2d343425,9648073,https://www.encodeproject.org/files/ENCFF973KGN/@@download/ENCFF973KGN.tsv
+hepatocyte,ENCSR859HWB,polyA plus RNA-seq,ENCFF973HGE,hg19,V19,gene quantifications,327dba3f19fe7ce9ec9b016274563986,9652910,https://www.encodeproject.org/files/ENCFF973HGE/@@download/ENCFF973HGE.tsv
+mesenchymal stem cell,ENCSR275ZLF,polyA plus RNA-seq,ENCFF159FLF,GRCh38,V29,gene quantifications,6859c8d3f27ebb374533cf95fd981582,10965374,https://www.encodeproject.org/files/ENCFF159FLF/@@download/ENCFF159FLF.tsv
+mesenchymal stem cell,ENCSR275ZLF,polyA plus RNA-seq,ENCFF693WRN,GRCh38,V24,gene quantifications,269ab01a37808bd4ff2262db51725c5b,9960407,https://www.encodeproject.org/files/ENCFF693WRN/@@download/ENCFF693WRN.tsv
+mesenchymal stem cell,ENCSR275ZLF,polyA plus RNA-seq,ENCFF595PVA,hg19,V19,gene quantifications,86ec9f8ef882e955e87e99f16a39ab7c,9605928,https://www.encodeproject.org/files/ENCFF595PVA/@@download/ENCFF595PVA.tsv
+mesendoderm,ENCSR700BEW,polyA plus RNA-seq,ENCFF494UYO,GRCh38,V29,gene quantifications,5ecf89b4b2c1603eee758a892ca7722b,10959665,https://www.encodeproject.org/files/ENCFF494UYO/@@download/ENCFF494UYO.tsv
+mesendoderm,ENCSR700BEW,polyA plus RNA-seq,ENCFF044YLS,GRCh38,V24,gene quantifications,6b5cf48d3c7883343764b9898012cbf7,9951815,https://www.encodeproject.org/files/ENCFF044YLS/@@download/ENCFF044YLS.tsv
+mesendoderm,ENCSR700BEW,polyA plus RNA-seq,ENCFF941DKW,hg19,V19,gene quantifications,7cc5548bb68e974ca9338b65a68a7f27,9597874,https://www.encodeproject.org/files/ENCFF941DKW/@@download/ENCFF941DKW.tsv
+neural crest cell,ENCSR761SHI,total RNA-seq,ENCFF684BKA,GRCh38,V29,gene quantifications,48295f7df00dec2976ec0aea2c5185e2,11035056,https://www.encodeproject.org/files/ENCFF684BKA/@@download/ENCFF684BKA.tsv
+neural crest cell,ENCSR761SHI,total RNA-seq,ENCFF290ZZQ,GRCh38,V29,gene quantifications,9d7acba6c31b5d73ba0f7fe2ebf910ba,11044586,https://www.encodeproject.org/files/ENCFF290ZZQ/@@download/ENCFF290ZZQ.tsv
+neural progenitor cell,ENCSR244ISQ,total RNA-seq,ENCFF145AQN,GRCh38,V29,gene quantifications,85670263984260c7711c22764d3802a5,10813214,https://www.encodeproject.org/files/ENCFF145AQN/@@download/ENCFF145AQN.tsv
+neural progenitor cell,ENCSR244ISQ,total RNA-seq,ENCFF567GQW,GRCh38,V29,gene quantifications,bb7ef5c006c4dd2f7f1fb7b842148b5d,10823036,https://www.encodeproject.org/files/ENCFF567GQW/@@download/ENCFF567GQW.tsv
+neural progenitor cell,ENCSR244ISQ,total RNA-seq,ENCFF663ARH,GRCh38,V24,gene quantifications,f6ebf4b128ab9dc654854ee542cc0b7a,9837266,https://www.encodeproject.org/files/ENCFF663ARH/@@download/ENCFF663ARH.tsv
+neural progenitor cell,ENCSR244ISQ,total RNA-seq,ENCFF672VVX,GRCh38,V24,gene quantifications,50bad5cff26d2e82016f2776948b0541,9845532,https://www.encodeproject.org/files/ENCFF672VVX/@@download/ENCFF672VVX.tsv
+neural progenitor cell,ENCSR244ISQ,total RNA-seq,ENCFF571GOC,hg19,V19,gene quantifications,cec7eb1c4c69c08f8ea7209e24de199e,9485189,https://www.encodeproject.org/files/ENCFF571GOC/@@download/ENCFF571GOC.tsv
+neural progenitor cell,ENCSR244ISQ,total RNA-seq,ENCFF043UOR,hg19,V19,gene quantifications,273e6fdb352acb0206d3d3165980cedb,9479618,https://www.encodeproject.org/files/ENCFF043UOR/@@download/ENCFF043UOR.tsv
+smooth muscle cell,ENCSR236URT,polyA plus RNA-seq,ENCFF838SQM,GRCh38,V29,gene quantifications,0ae5c3f0018bc2af54feeebdd833b641,11043202,https://www.encodeproject.org/files/ENCFF838SQM/@@download/ENCFF838SQM.tsv
+smooth muscle cell,ENCSR236URT,polyA plus RNA-seq,ENCFF511YJF,GRCh38,V29,gene quantifications,0804b8b5ebf67859206009f5d434d278,11054894,https://www.encodeproject.org/files/ENCFF511YJF/@@download/ENCFF511YJF.tsv
+smooth muscle cell,ENCSR236URT,polyA plus RNA-seq,ENCFF852RUU,GRCh38,V24,gene quantifications,0a49f8f9fea8ec0dd279a3cf50b85762,10024591,https://www.encodeproject.org/files/ENCFF852RUU/@@download/ENCFF852RUU.tsv
+smooth muscle cell,ENCSR236URT,polyA plus RNA-seq,ENCFF003QAY,GRCh38,V24,gene quantifications,f80fd83e1714c4a0c9d1a515ef8b8c96,10036972,https://www.encodeproject.org/files/ENCFF003QAY/@@download/ENCFF003QAY.tsv
+smooth muscle cell,ENCSR236URT,polyA plus RNA-seq,ENCFF627PWY,hg19,V19,gene quantifications,44bba73ec2149e57e823cc5f85dd9b55,9646744,https://www.encodeproject.org/files/ENCFF627PWY/@@download/ENCFF627PWY.tsv
+smooth muscle cell,ENCSR236URT,polyA plus RNA-seq,ENCFF115UKC,hg19,V19,gene quantifications,f5450674a5cad903652790ccdadd4666,9657944,https://www.encodeproject.org/files/ENCFF115UKC/@@download/ENCFF115UKC.tsv

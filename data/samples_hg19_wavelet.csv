@@ -1,0 +1,109 @@
+file_accession,cell_line,group,assay,experiment,assembly,md5sum,file_size,url
+ENCFF797GYT,A549,cancer,Repli-seq,ENCSR593FTB,hg19,337cec688c7ae857ba940e0edd2cd451,5374368,https://www.encodeproject.org/files/ENCFF797GYT/@@download/ENCFF797GYT.bigWig
+ENCFF417PET,Caki2,cancer,Repli-seq,ENCSR868SPM,hg19,e6e32aa9a8f2c4660a2c33347aeda429,5561709,https://www.encodeproject.org/files/ENCFF417PET/@@download/ENCFF417PET.bigWig
+ENCFF993XAU,G401,cancer,Repli-seq,ENCSR786TGS,hg19,18b8affe8b515110156e6060493b866a,5306159,https://www.encodeproject.org/files/ENCFF993XAU/@@download/ENCFF993XAU.bigWig
+ENCFF000KUP,HeLa-S3,cancer,Repli-chip,ENCSR000AXG,hg19,794e88996855f3a3ba579fb9a4af235c,14529956,https://www.encodeproject.org/files/ENCFF000KUP/@@download/ENCFF000KUP.bigWig
+ENCFF001GPB,HeLa-S3,cancer,Repli-seq (UW),ENCSR579NVW,hg19,7038a008e9e4070f768308f1780dd9e2,10255300,https://www.encodeproject.org/files/ENCFF001GPB/@@download/ENCFF001GPB.bigWig
+ENCFF001GQD,HepG2,cancer,Repli-seq (UW),ENCSR579NVW,hg19,5c2bdf896cf9b4f86dbf2760d3272f6d,10215164,https://www.encodeproject.org/files/ENCFF001GQD/@@download/ENCFF001GQD.bigWig
+ENCFF001GST,K562,cancer,Repli-seq (UW),ENCSR579NVW,hg19,f9d1e0cf3e341f67a782fcc8526ad873,10213595,https://www.encodeproject.org/files/ENCFF001GST/@@download/ENCFF001GST.bigWig
+ENCFF001GTQ,MCF-7,cancer,Repli-seq (UW),ENCSR579NVW,hg19,ff7dfe68282a8f656d6d4e1dd17d91a2,10168671,https://www.encodeproject.org/files/ENCFF001GTQ/@@download/ENCFF001GTQ.bigWig
+ENCFF085YSK,NCI-H460,cancer,Repli-seq,ENCSR168UZM,hg19,da80cd1346e69466372736c37ff3f8fe,5418517,https://www.encodeproject.org/files/ENCFF085YSK/@@download/ENCFF085YSK.bigWig
+ENCFF708QCM,SK-N-MC,cancer,Repli-seq,ENCSR290SBE,hg19,90ddc398fd0bf3e969cf7a5f4f21d17b,5320947,https://www.encodeproject.org/files/ENCFF708QCM/@@download/ENCFF708QCM.bigWig
+ENCFF001GVH,SK-N-SH,cancer,Repli-seq (UW),ENCSR579NVW,hg19,b2c53ac809af9670d87316cde9a3e0d9,9982595,https://www.encodeproject.org/files/ENCFF001GVH/@@download/ENCFF001GVH.bigWig
+ENCFF440QFG,T47D,cancer,Repli-seq,ENCSR321LSA,hg19,c2531f7f5d01ee4e0aa052a022c37f2a,5305883,https://www.encodeproject.org/files/ENCFF440QFG/@@download/ENCFF440QFG.bigWig
+ENCFF001GJQ,BJ,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,86b0447aa68b1d384ac6c55d45d89882,10202136,https://www.encodeproject.org/files/ENCFF001GJQ/@@download/ENCFF001GJQ.bigWig
+ENCFF001GJR,BJ,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,35b10f9205eee27a57d27cce80a9febe,10206705,https://www.encodeproject.org/files/ENCFF001GJR/@@download/ENCFF001GJR.bigWig
+ENCFF041HOZ,C0202,non-cancer,Repli-chip,ENCSR637LBQ,hg19,0eadd3a70c1c52c601defb88cad273c3,40677578,https://www.encodeproject.org/files/ENCFF041HOZ/@@download/ENCFF041HOZ.bigWig
+ENCFF174LZH,C0202,non-cancer,Repli-chip,ENCSR637LBQ,hg19,cd00d0c274657784af24736ffa85b32a,40655900,https://www.encodeproject.org/files/ENCFF174LZH/@@download/ENCFF174LZH.bigWig
+ENCFF000KUA,GM06990,non-cancer,Repli-chip,ENCSR000AXC,hg19,11aa2d0795458559eb6a0220a97f1086,14513855,https://www.encodeproject.org/files/ENCFF000KUA/@@download/ENCFF000KUA.bigWig
+ENCFF000KUB,GM06990,non-cancer,Repli-chip,ENCSR000AXC,hg19,bd27c5dbe8a83363ab42407d58bfc482,14513017,https://www.encodeproject.org/files/ENCFF000KUB/@@download/ENCFF000KUB.bigWig
+ENCFF001GKV,GM06990,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,bfe070637513de3428d88b4ae6322d92,10210965,https://www.encodeproject.org/files/ENCFF001GKV/@@download/ENCFF001GKV.bigWig
+ENCFF639LTW,GM06999,non-cancer,Repli-chip,ENCSR416HAJ,hg19,a836b4f99b9c0c7527c96cced9644242,12135654,https://www.encodeproject.org/files/ENCFF639LTW/@@download/ENCFF639LTW.bigWig
+ENCFF769GPR,GM06999,non-cancer,Repli-chip,ENCSR416HAJ,hg19,b6a96392b71f3afdec138a39aab7698c,12139362,https://www.encodeproject.org/files/ENCFF769GPR/@@download/ENCFF769GPR.bigWig
+ENCFF001GLQ,GM12801,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,8fb15c26daba1751d1274de30c3b56d9,10143277,https://www.encodeproject.org/files/ENCFF001GLQ/@@download/ENCFF001GLQ.bigWig
+ENCFF001GMM,GM12812,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,6d40f18677590565a495529bf738a69c,10158789,https://www.encodeproject.org/files/ENCFF001GMM/@@download/ENCFF001GMM.bigWig
+ENCFF001GNI,GM12813,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,50b143a52dac1851531b4d8bf65d8175,10123367,https://www.encodeproject.org/files/ENCFF001GNI/@@download/ENCFF001GNI.bigWig
+ENCFF001GOE,GM12878,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,f4b6d8efcf1ae063418831eb69cc60c1,10197898,https://www.encodeproject.org/files/ENCFF001GOE/@@download/ENCFF001GOE.bigWig
+ENCFF001GQX,HUVEC,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,2bb6f2bd13dd987b6766d2530576b003,10291845,https://www.encodeproject.org/files/ENCFF001GQX/@@download/ENCFF001GQX.bigWig
+ENCFF000KUR,IMR-90,non-cancer,Repli-chip,ENCSR000AXH,hg19,4642c3034545867d9ffa8baacc84edd3,14522825,https://www.encodeproject.org/files/ENCFF000KUR/@@download/ENCFF000KUR.bigWig
+ENCFF001GRV,IMR-90,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,db047ecf841aa9a4259142150ab1fc24,10286531,https://www.encodeproject.org/files/ENCFF001GRV/@@download/ENCFF001GRV.bigWig
+ENCFF625DLV,NC-NC,non-cancer,Repli-chip,ENCSR147SAW,hg19,0cb2b59c89ea951adc53959900a7df42,12163271,https://www.encodeproject.org/files/ENCFF625DLV/@@download/ENCFF625DLV.bigWig
+ENCFF001GUN,NHEK,non-cancer,Repli-seq (UW),ENCSR579NVW,hg19,f4f3a90b8ddf1969a891cac04e0b1439,10199222,https://www.encodeproject.org/files/ENCFF001GUN/@@download/ENCFF001GUN.bigWig
+ENCFF114OGH,T-cell,non-cancer,Repli-chip,ENCSR381NGE,hg19,0ac56840be03fce8bcd7a9a4341e2a21,12136719,https://www.encodeproject.org/files/ENCFF114OGH/@@download/ENCFF114OGH.bigWig
+ENCFF303LWY,definitive endodermal cell,non-cancer,Repli-chip,ENCSR030IGQ,hg19,1f0c5a1dd3e7142568bea1689ec68f3d,12171323,https://www.encodeproject.org/files/ENCFF303LWY/@@download/ENCFF303LWY.bigWig
+ENCFF820GCV,definitive endodermal cell,non-cancer,Repli-chip,ENCSR030IGQ,hg19,86f8ca03500553ddfa0e290093f264a6,12155868,https://www.encodeproject.org/files/ENCFF820GCV/@@download/ENCFF820GCV.bigWig
+ENCFF131CBF,endocrine cell,non-cancer,Repli-chip,ENCSR731ZIA,hg19,a8207de7af89106e61de4e01feb9acbb,10208540,https://www.encodeproject.org/files/ENCFF131CBF/@@download/ENCFF131CBF.bigWig
+ENCFF455FSI,endocrine cell,non-cancer,Repli-chip,ENCSR731ZIA,hg19,307ea96a89018afc323c82c5a0ca8399,12157589,https://www.encodeproject.org/files/ENCFF455FSI/@@download/ENCFF455FSI.bigWig
+ENCFF480LGE,endocrine cell,non-cancer,Repli-chip,ENCSR731ZIA,hg19,b37c924f676da2247f32a4f4471a9fdd,12139014,https://www.encodeproject.org/files/ENCFF480LGE/@@download/ENCFF480LGE.bigWig
+ENCFF764PQR,endocrine cell,non-cancer,Repli-chip,ENCSR731ZIA,hg19,8909e5d770c94b0dcb44f3661ccbc87d,10207055,https://www.encodeproject.org/files/ENCFF764PQR/@@download/ENCFF764PQR.bigWig
+ENCFF174KUT,endodermal cell,non-cancer,Repli-chip,ENCSR180HYZ,hg19,edca61e8f1e18a84e820fe0d3f4146e3,10244540,https://www.encodeproject.org/files/ENCFF174KUT/@@download/ENCFF174KUT.bigWig
+ENCFF321FPF,endodermal cell,non-cancer,Repli-chip,ENCSR180HYZ,hg19,32a196dbc957c2e83f380869bada6edb,10217810,https://www.encodeproject.org/files/ENCFF321FPF/@@download/ENCFF321FPF.bigWig
+ENCFF452IGW,endodermal cell,non-cancer,Repli-chip,ENCSR180HYZ,hg19,82205d6be69452e9be2359135b7309a9,10248690,https://www.encodeproject.org/files/ENCFF452IGW/@@download/ENCFF452IGW.bigWig
+ENCFF520MKA,endodermal cell,non-cancer,Repli-chip,ENCSR180HYZ,hg19,7b13a3046d4f62717d5aaf249dca65ba,12190117,https://www.encodeproject.org/files/ENCFF520MKA/@@download/ENCFF520MKA.bigWig
+ENCFF615OXN,endodermal cell,non-cancer,Repli-chip,ENCSR180HYZ,hg19,434fd49f75a55b617907c4ea647e0d54,10243062,https://www.encodeproject.org/files/ENCFF615OXN/@@download/ENCFF615OXN.bigWig
+ENCFF015AJC,erythroid progenitor cell,non-cancer,Repli-chip,ENCSR464YWK,hg19,37638d263874a70d048b41870a80e737,12149972,https://www.encodeproject.org/files/ENCFF015AJC/@@download/ENCFF015AJC.bigWig
+ENCFF380HLO,erythroid progenitor cell,non-cancer,Repli-chip,ENCSR598WKC,hg19,695cac56a3cb84b0e52ad18e480dd865,12146565,https://www.encodeproject.org/files/ENCFF380HLO/@@download/ENCFF380HLO.bigWig
+ENCFF100XJA,hematopoietic multipotent progenitor cell,non-cancer,Repli-chip,ENCSR066KKK,hg19,0e176cbd4e28305f99cf9a839a38b7b2,12144023,https://www.encodeproject.org/files/ENCFF100XJA/@@download/ENCFF100XJA.bigWig
+ENCFF191CRG,hepatocyte,non-cancer,Repli-chip,ENCSR683OMB,hg19,a2c1191db2f18973594df0ebd711bb34,10198210,https://www.encodeproject.org/files/ENCFF191CRG/@@download/ENCFF191CRG.bigWig
+ENCFF520XAL,hepatocyte,non-cancer,Repli-chip,ENCSR290TDG,hg19,f1f7a046c0418364ef7d20f8916697b6,12182772,https://www.encodeproject.org/files/ENCFF520XAL/@@download/ENCFF520XAL.bigWig
+ENCFF581QGZ,hepatocyte,non-cancer,Repli-chip,ENCSR683OMB,hg19,639c388ecd134d23be3ca9b1a681d06e,12158620,https://www.encodeproject.org/files/ENCFF581QGZ/@@download/ENCFF581QGZ.bigWig
+ENCFF585VCH,hepatocyte,non-cancer,Repli-chip,ENCSR016WKS,hg19,d66f0eaf6f98a0651ec621fe6d90bccc,12141347,https://www.encodeproject.org/files/ENCFF585VCH/@@download/ENCFF585VCH.bigWig
+ENCFF989SBF,hepatocyte,non-cancer,Repli-chip,ENCSR683OMB,hg19,b7b654eed0166e8f78e427eed8c07a27,12133131,https://www.encodeproject.org/files/ENCFF989SBF/@@download/ENCFF989SBF.bigWig
+ENCFF011YIA,lateral mesodermal cell,non-cancer,Repli-chip,ENCSR495ZCD,hg19,9b51b118071716ce68a5b2265c2c51c8,10243388,https://www.encodeproject.org/files/ENCFF011YIA/@@download/ENCFF011YIA.bigWig
+ENCFF061BYC,lateral mesodermal cell,non-cancer,Repli-chip,ENCSR495ZCD,hg19,f16b9405bc11af8aa468a132819fbdef,10230315,https://www.encodeproject.org/files/ENCFF061BYC/@@download/ENCFF061BYC.bigWig
+ENCFF297UBR,lateral mesodermal cell,non-cancer,Repli-chip,ENCSR495ZCD,hg19,9000cb136ccdac7fe7b514ad41dc59b5,12178577,https://www.encodeproject.org/files/ENCFF297UBR/@@download/ENCFF297UBR.bigWig
+ENCFF577QKR,lateral mesodermal cell,non-cancer,Repli-chip,ENCSR495ZCD,hg19,343dae66b7064553fbcc6a9ca0625d3b,10239758,https://www.encodeproject.org/files/ENCFF577QKR/@@download/ENCFF577QKR.bigWig
+ENCFF756LKN,lateral mesodermal cell,non-cancer,Repli-chip,ENCSR495ZCD,hg19,24514becb87b86c8b861454df6e466ef,10241789,https://www.encodeproject.org/files/ENCFF756LKN/@@download/ENCFF756LKN.bigWig
+ENCFF051GWR,mesendoderm,non-cancer,Repli-chip,ENCSR888WAW,hg19,6fdc6a1725ccda1406d36f106e1de805,12178437,https://www.encodeproject.org/files/ENCFF051GWR/@@download/ENCFF051GWR.bigWig
+ENCFF228KFI,mesendoderm,non-cancer,Repli-chip,ENCSR888WAW,hg19,4647018d32fb3c5359ea62dc0b723e6d,12174822,https://www.encodeproject.org/files/ENCFF228KFI/@@download/ENCFF228KFI.bigWig
+ENCFF151OSN,mesothelial cell,non-cancer,Repli-chip,ENCSR401KWO,hg19,71031d24886ce85ec0dacfd6aca23105,10213136,https://www.encodeproject.org/files/ENCFF151OSN/@@download/ENCFF151OSN.bigWig
+ENCFF184DLB,mesothelial cell,non-cancer,Repli-chip,ENCSR326SZT,hg19,39cc6b68fefaef97e5219d1a8607cc33,10227234,https://www.encodeproject.org/files/ENCFF184DLB/@@download/ENCFF184DLB.bigWig
+ENCFF212TLH,mesothelial cell,non-cancer,Repli-chip,ENCSR401KWO,hg19,2e290da667f0e68699cfb7b7cccc3ef0,10208526,https://www.encodeproject.org/files/ENCFF212TLH/@@download/ENCFF212TLH.bigWig
+ENCFF336VSK,mesothelial cell,non-cancer,Repli-chip,ENCSR326SZT,hg19,c4d94ab6ca3424d51fecc7623f461f12,12132010,https://www.encodeproject.org/files/ENCFF336VSK/@@download/ENCFF336VSK.bigWig
+ENCFF451DZD,mesothelial cell,non-cancer,Repli-chip,ENCSR326SZT,hg19,29eb72a8673d7c2481ee4606f28021c7,10212132,https://www.encodeproject.org/files/ENCFF451DZD/@@download/ENCFF451DZD.bigWig
+ENCFF489OQZ,myeloid cell,non-cancer,Repli-chip,ENCSR147RRW,hg19,c111153432414f07ea6e16e1c1235c60,12180398,https://www.encodeproject.org/files/ENCFF489OQZ/@@download/ENCFF489OQZ.bigWig
+ENCFF536JGA,myeloid cell,non-cancer,Repli-chip,ENCSR094ECV,hg19,c6fab1dd0b16dc3bdda6d4345849dbd0,12154645,https://www.encodeproject.org/files/ENCFF536JGA/@@download/ENCFF536JGA.bigWig
+ENCFF076CAB,myoblast,non-cancer,Repli-chip,ENCSR566ZGN,hg19,5071edc00d68545c1658c262a4ee20b5,12133422,https://www.encodeproject.org/files/ENCFF076CAB/@@download/ENCFF076CAB.bigWig
+ENCFF366RPM,myoblast,non-cancer,Repli-chip,ENCSR898EGI,hg19,11042936e0066c36bd17bc59221f51ed,12191250,https://www.encodeproject.org/files/ENCFF366RPM/@@download/ENCFF366RPM.bigWig
+ENCFF771YZL,myoblast,non-cancer,Repli-chip,ENCSR700NQK,hg19,72b44159e9d99623607278157c23c0b1,12160167,https://www.encodeproject.org/files/ENCFF771YZL/@@download/ENCFF771YZL.bigWig
+ENCFF469TYS,neural progenitor cell,non-cancer,Repli-chip,ENCSR497CCF,hg19,65ec184716d2538d6f51681b3f0b1ed0,12197111,https://www.encodeproject.org/files/ENCFF469TYS/@@download/ENCFF469TYS.bigWig
+ENCFF571KHC,neural progenitor cell,non-cancer,Repli-chip,ENCSR002FZU,hg19,2efed98d85723aa542f1fcde6ae714c0,40655699,https://www.encodeproject.org/files/ENCFF571KHC/@@download/ENCFF571KHC.bigWig
+ENCFF907YXU,neural progenitor cell,non-cancer,Repli-chip,ENCSR002FZU,hg19,0298524af19517fb1784844cfaa6f56b,40686981,https://www.encodeproject.org/files/ENCFF907YXU/@@download/ENCFF907YXU.bigWig
+ENCFF923TOC,neural progenitor cell,non-cancer,Repli-chip,ENCSR497CCF,hg19,d36518fc78332d070dd693728e1e699f,10238536,https://www.encodeproject.org/files/ENCFF923TOC/@@download/ENCFF923TOC.bigWig
+ENCFF623BGX,posterior foregut,non-cancer,Repli-chip,ENCSR217XWA,hg19,5a708d982fdb03e38f4169d0b3e862cf,12148972,https://www.encodeproject.org/files/ENCFF623BGX/@@download/ENCFF623BGX.bigWig
+ENCFF221JHQ,primitive gut cell,non-cancer,Repli-chip,ENCSR082DIF,hg19,4cbe7639d7d4b4877deadfc9efd8b0ce,12130482,https://www.encodeproject.org/files/ENCFF221JHQ/@@download/ENCFF221JHQ.bigWig
+ENCFF496OSK,primitive gut cell,non-cancer,Repli-chip,ENCSR082DIF,hg19,d8735451d0289c0d2c36113579316b0b,12133179,https://www.encodeproject.org/files/ENCFF496OSK/@@download/ENCFF496OSK.bigWig
+ENCFF670UWV,smooth muscle cell,non-cancer,Repli-chip,ENCSR638FAJ,hg19,8ca8e1806642ab9bfb45034fff028624,12153406,https://www.encodeproject.org/files/ENCFF670UWV/@@download/ENCFF670UWV.bigWig
+ENCFF786EKI,smooth muscle cell,non-cancer,Repli-chip,ENCSR069DSA,hg19,9dedcf4af2faacf946461dcd0afbaf7e,12150555,https://www.encodeproject.org/files/ENCFF786EKI/@@download/ENCFF786EKI.bigWig
+ENCFF860YYU,smooth muscle cell,non-cancer,Repli-chip,ENCSR069DSA,hg19,7db6b50dc1724eee54782337a67e10b9,12154724,https://www.encodeproject.org/files/ENCFF860YYU/@@download/ENCFF860YYU.bigWig
+ENCFF879OPQ,smooth muscle cell,non-cancer,Repli-chip,ENCSR638FAJ,hg19,9697d8859b117285afb4beccfed98b54,12150944,https://www.encodeproject.org/files/ENCFF879OPQ/@@download/ENCFF879OPQ.bigWig
+ENCFF005OFZ,splanchnic mesodermal cell,non-cancer,Repli-chip,ENCSR971DCP,hg19,d49e3ea422345b4e16e7a00b2ff626e0,10208098,https://www.encodeproject.org/files/ENCFF005OFZ/@@download/ENCFF005OFZ.bigWig
+ENCFF090QYN,splanchnic mesodermal cell,non-cancer,Repli-chip,ENCSR223ODK,hg19,9f7530f18b4567e61174d6d95434701a,12194337,https://www.encodeproject.org/files/ENCFF090QYN/@@download/ENCFF090QYN.bigWig
+ENCFF508BTN,splanchnic mesodermal cell,non-cancer,Repli-chip,ENCSR599KJC,hg19,7daaf214517fd00c79fc16ddb0d5d024,12163649,https://www.encodeproject.org/files/ENCFF508BTN/@@download/ENCFF508BTN.bigWig
+ENCFF624TOR,splanchnic mesodermal cell,non-cancer,Repli-chip,ENCSR971DCP,hg19,51c5660060a63ffc1cb7bdb2dff2c3c1,12143158,https://www.encodeproject.org/files/ENCFF624TOR/@@download/ENCFF624TOR.bigWig
+ENCFF630QUO,splanchnic mesodermal cell,non-cancer,Repli-chip,ENCSR599KJC,hg19,998d23bfbb4b8d3f6a5df532d85b1d88,12163217,https://www.encodeproject.org/files/ENCFF630QUO/@@download/ENCFF630QUO.bigWig
+ENCFF813VIP,splanchnic mesodermal cell,non-cancer,Repli-chip,ENCSR223ODK,hg19,9172e9d80b1d16cd8325bc17880a0314,12165225,https://www.encodeproject.org/files/ENCFF813VIP/@@download/ENCFF813VIP.bigWig
+ENCFF317FAT,BG01,stem,Repli-chip,ENCSR264ESP,hg19,7e743354382242d6ba8dbad136e107ac,40777008,https://www.encodeproject.org/files/ENCFF317FAT/@@download/ENCFF317FAT.bigWig
+ENCFF000KTW,BG02,stem,Repli-chip,ENCSR000AXB,hg19,1df949efc4c057a9740bfe6a29b25a9c,31102539,https://www.encodeproject.org/files/ENCFF000KTW/@@download/ENCFF000KTW.bigWig
+ENCFF000KTX,BG02,stem,Repli-chip,ENCSR000AXB,hg19,49f702e5f5af423cfd86b3d5ede8c8b3,31167949,https://www.encodeproject.org/files/ENCFF000KTX/@@download/ENCFF000KTX.bigWig
+ENCFF001GHZ,BG02,stem,Repli-seq (UW),ENCSR579NVW,hg19,382fe3a9eb54355819ef877e05ae65b5,10317463,https://www.encodeproject.org/files/ENCFF001GHZ/@@download/ENCFF001GHZ.bigWig
+ENCFF088COU,CyT49,stem,Repli-chip,ENCSR372XCP,hg19,fa4465d4e85dfe4fa4b7b31978117044,10207357,https://www.encodeproject.org/files/ENCFF088COU/@@download/ENCFF088COU.bigWig
+ENCFF555IJR,CyT49,stem,Repli-chip,ENCSR372XCP,hg19,cfca0f438b6bf42db3f68c69691e3d2f,10209710,https://www.encodeproject.org/files/ENCFF555IJR/@@download/ENCFF555IJR.bigWig
+ENCFF000KUF,H1,stem,Repli-chip,ENCSR000AXD,hg19,0dba05ca6288d848183eba418442f8cd,31090178,https://www.encodeproject.org/files/ENCFF000KUF/@@download/ENCFF000KUF.bigWig
+ENCFF000KUG,H1,stem,Repli-chip,ENCSR000AXD,hg19,fbab85afa7000f2837ad5c1858a7c92b,31204848,https://www.encodeproject.org/files/ENCFF000KUG/@@download/ENCFF000KUG.bigWig
+ENCFF000KUH,H1,stem,Repli-chip,ENCSR000AXD,hg19,a715b0a51d2efe63f17b257f48ae5d5b,31070438,https://www.encodeproject.org/files/ENCFF000KUH/@@download/ENCFF000KUH.bigWig
+ENCFF000KUK,H7,stem,Repli-chip,ENCSR000AXE,hg19,60bf88aae62d5bb8ee544816a0a5813c,31166311,https://www.encodeproject.org/files/ENCFF000KUK/@@download/ENCFF000KUK.bigWig
+ENCFF000KUL,H7,stem,Repli-chip,ENCSR000AXE,hg19,9a644368a07d2840e302fa7f1e28aad3,31098481,https://www.encodeproject.org/files/ENCFF000KUL/@@download/ENCFF000KUL.bigWig
+ENCFF000KUN,H9,stem,Repli-chip,ENCSR000AXF,hg19,fade5c199d02f70c1eaa2a2e50866e32,31134019,https://www.encodeproject.org/files/ENCFF000KUN/@@download/ENCFF000KUN.bigWig
+ENCFF000KUU,hFib2-iPS4,stem,Repli-chip,ENCSR000AXA,hg19,e6179f7180d97f3a1a5df9e79ba5a0e5,31165530,https://www.encodeproject.org/files/ENCFF000KUU/@@download/ENCFF000KUU.bigWig
+ENCFF000KUW,hFib2-iPS4,stem,Repli-chip,ENCSR000AXA,hg19,caa347696c9422754890c7bc06688867,31135335,https://www.encodeproject.org/files/ENCFF000KUW/@@download/ENCFF000KUW.bigWig
+ENCFF000KUZ,iPS-5,stem,Repli-chip,ENCSR000AVZ,hg19,55d0500dfa97afae54c9e2ceb9144d87,31093238,https://www.encodeproject.org/files/ENCFF000KUZ/@@download/ENCFF000KUZ.bigWig
+ENCFF000KVA,iPS-5,stem,Repli-chip,ENCSR000AVZ,hg19,4be704e0dd855a044cc59df0f35ec4ad,31245510,https://www.encodeproject.org/files/ENCFF000KVA/@@download/ENCFF000KVA.bigWig
+ENCFF825ZDS,mesenchymal stem cell,stem,Repli-chip,ENCSR665BXN,hg19,d9d196801d20100a647c0c66cc010c7a,10226946,https://www.encodeproject.org/files/ENCFF825ZDS/@@download/ENCFF825ZDS.bigWig
+ENCFF978RCZ,mesenchymal stem cell,stem,Repli-chip,ENCSR665BXN,hg19,ddde6a2a103d90112ca36c12ad56fda6,12144417,https://www.encodeproject.org/files/ENCFF978RCZ/@@download/ENCFF978RCZ.bigWig
+ENCFF072DYF,neural crest cell,stem,Repli-chip,ENCSR079VGT,hg19,e492f4931e1b309bbcd921d8c2d78511,10235819,https://www.encodeproject.org/files/ENCFF072DYF/@@download/ENCFF072DYF.bigWig
+ENCFF283VRQ,neural crest cell,stem,Repli-chip,ENCSR079VGT,hg19,72f2e52e29c0290e8ae3c9c700120e69,12124889,https://www.encodeproject.org/files/ENCFF283VRQ/@@download/ENCFF283VRQ.bigWig
+ENCFF310HXX,neural crest cell,stem,Repli-chip,ENCSR079VGT,hg19,1ed3b0eb89b356182d030c660b698914,12167996,https://www.encodeproject.org/files/ENCFF310HXX/@@download/ENCFF310HXX.bigWig
+ENCFF346GTH,neural crest cell,stem,Repli-chip,ENCSR315GRM,hg19,f90aa34a2569cac0ad4da2cb4cfe6fe3,10186209,https://www.encodeproject.org/files/ENCFF346GTH/@@download/ENCFF346GTH.bigWig
+ENCFF364XMV,neural crest cell,stem,Repli-chip,ENCSR315GRM,hg19,ae09e04b1fac476df2f048db6cd67a0c,10193340,https://www.encodeproject.org/files/ENCFF364XMV/@@download/ENCFF364XMV.bigWig
+ENCFF383SGP,neural crest cell,stem,Repli-chip,ENCSR079VGT,hg19,ad2da2f7cc276ac718ec28f47e73629b,12126103,https://www.encodeproject.org/files/ENCFF383SGP/@@download/ENCFF383SGP.bigWig
