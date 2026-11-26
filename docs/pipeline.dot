@@ -13,11 +13,10 @@ digraph pipeline {
 
   node [shape=box, style="rounded,filled", fillcolor="#ffffff", color="#333333"];
   GENESETS     [label="GENESETS\nprotein-coding + 66 RD histone genes"];
-  GENE_RT      [label="GENE_RT\nRT score per gene, TSS ± 5 kb"];
+  GENE_RT      [label="GENE_RT\nRT score per gene, gene body\n(ENCODE and drug tracks)"];
   RNASEQ_TOP5  [label="RNASEQ_TOP5\ntop 5% expressed genes"];
   EXTRACT_DRUG [label="EXTRACT_DRUG\n24 fraction bigWigs"];
   WAVELET_DRUG [label="WAVELET_DRUG\nweighted average + J7 wavelet"];
-  DRUG_GENE_RT [label="DRUG_GENE_RT\nRT score per gene, gene body"];
   ASSEMBLE     [label="ASSEMBLE\nnotebook inputs"];
   NOTEBOOK     [label="NOTEBOOK\nanalysis.ipynb, sections 1-5", style="rounded,filled,bold", fillcolor="#fdf0e6", color="#d35400"];
 
@@ -32,8 +31,8 @@ digraph pipeline {
   gtf -> GENESETS;
   rt  -> GENE_RT;  GENESETS -> GENE_RT;
   rna -> RNASEQ_TOP5; GENESETS -> RNASEQ_TOP5;
-  zen -> EXTRACT_DRUG -> WAVELET_DRUG -> DRUG_GENE_RT; GENESETS -> DRUG_GENE_RT;
-  GENE_RT -> ASSEMBLE; RNASEQ_TOP5 -> ASSEMBLE; DRUG_GENE_RT -> ASSEMBLE; GENESETS -> ASSEMBLE;
+  zen -> EXTRACT_DRUG -> WAVELET_DRUG -> GENE_RT;
+  GENE_RT -> ASSEMBLE; RNASEQ_TOP5 -> ASSEMBLE; GENESETS -> ASSEMBLE;
   ASSEMBLE -> NOTEBOOK -> figs;
   uw -> REPROCESS_UW -> QC_TRACKS; rt -> QC_TRACKS [style=dashed];
   QC_TRACKS -> qc;

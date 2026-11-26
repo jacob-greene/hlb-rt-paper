@@ -2,16 +2,16 @@
 // Replication timing of replication-dependent histone genes across ENCODE cell lines (hg19).
 //
 // ENCODE wavelet-smoothed RT bigWigs (108 tracks, 50 cell-line labels)
-//   -> per-gene RT score (TSS +/- 5 kb)
+// Drug-treatment Repli-seq fractions (Zenodo 10.5281/zenodo.19093559; 4 conditions x 6 fractions)
+//   -> weighted-average J7 wavelet track per condition
+// Every RT track -> per-gene RT score (gene body)
 // ENCODE RNA-seq gene quantifications (104 files, 24 labels)
 //   -> top 5% expressed protein-coding genes per label
-// Drug-treatment Repli-seq fractions (Zenodo 10.5281/zenodo.19093559; 4 conditions x 6 fractions)
-//   -> weighted-average J7 wavelet track per condition -> per-gene RT score (exact gene body)
 // All -> notebook inputs -> analysis.ipynb (sections 1-5) -> figures.
 nextflow.enable.dsl = 2
 
 include { FETCH as FETCH_REF; FETCH as FETCH_BW; FETCH as FETCH_RNA; FETCH as FETCH_UW; FETCH as FETCH_DRUG } from './modules/fetch'
-include { GENESETS; GENE_RT; RNASEQ_TOP5; EXTRACT_DRUG; WAVELET_DRUG; DRUG_GENE_RT; ASSEMBLE; NOTEBOOK; REPROCESS_UW; QC_TRACKS } from './modules/analysis'
+include { GENESETS; GENE_RT; RNASEQ_TOP5; EXTRACT_DRUG; WAVELET_DRUG; ASSEMBLE; NOTEBOOK; REPROCESS_UW; QC_TRACKS } from './modules/analysis'
 
 def subset(rows, key, wanted) {
     wanted == 'all' ? rows : rows.findAll { it[key] in wanted.tokenize(',') }
@@ -26,8 +26,6 @@ workflow {
     def bw_rows = subset(hg19_sheet.splitCsv(header: true), 'cell_line', params.cell_lines)
     FETCH_BW(Channel.fromList(bw_rows).map { r ->
         [r.file_accession, 'bigwig_hg19', r.url, r.md5sum, "${r.file_accession}.bigWig"] })
-    GENE_RT(FETCH_BW.out, GENESETS.out.coding.first())   // value channel: reused for every track
-
     def rna_sheet = file(params.samples_rnaseq)
     def rna_rows = subset(rna_sheet.splitCsv(header: true), 'cell_line', params.cell_lines)
     FETCH_RNA(Channel.fromList(rna_rows).map { r ->
@@ -49,10 +47,16 @@ workflow {
              rows.sort { fraction_order.indexOf(it.fraction) }.collect { by_name[it.file_name] }] }
     }
     WAVELET_DRUG(drug_groups)
-    DRUG_GENE_RT(WAVELET_DRUG.out.toSortedList { a, b -> condition_order.indexOf(a[0]) <=> condition_order.indexOf(b[0]) },
-                 WAVELET_DRUG.out.map { it[1] }.collect(), GENESETS.out.coding, GENESETS.out.histones)
 
-    ASSEMBLE(hg19_sheet, GENESETS.out.histones, RNASEQ_TOP5.out, DRUG_GENE_RT.out, GENE_RT.out.collect())
+    // One per-gene RT score for every track, ENCODE and drug alike
+    GENE_RT(FETCH_BW.out.mix(WAVELET_DRUG.out), GENESETS.out.coding.first())   // value channel: reused for every track
+    def is_drug = { it[0] in condition_order }
+    def drug_rt = GENE_RT.out.filter(is_drug)
+        .toSortedList { a, b -> condition_order.indexOf(a[0]) <=> condition_order.indexOf(b[0]) }
+    def encode_rt = GENE_RT.out.filter { !is_drug(it) }.map { it[1] }.collect()
+
+    ASSEMBLE(hg19_sheet, GENESETS.out.histones, RNASEQ_TOP5.out,
+             drug_rt, drug_rt.map { rows -> rows.collect { it[1] } }, encode_rt)
     NOTEBOOK(ASSEMBLE.out.inputs)   // analysis.ipynb, sections 1-5
 
     // QC (not used by the notebook): rebuild each UW Repli-seq track from its six fraction signals

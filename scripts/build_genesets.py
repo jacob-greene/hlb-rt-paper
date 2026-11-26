@@ -1,7 +1,7 @@
 """Build the protein-coding gene table and the replication-dependent histone set.
 
 Input: GENCODE v44 basic annotation lifted to GRCh37 (gencode.v44lift37.basic.annotation.gtf.gz).
-Output (in OUTDIR): all_coding.parquet (one row per protein-coding gene; canonical TSS),
+Output (in OUTDIR): all_coding.parquet (one row per protein-coding gene; gene-record span, TSS = its 5' end),
 histones.parquet (replication-dependent histone genes in the four clusters HIST1-HIST4).
 Coordinates are kept exactly as in the GTF (1-based start), as in the original analysis.
 Usage: build_genesets.py <gtf.gz> <outdir>
@@ -88,8 +88,8 @@ def main():
     canonical = pc_tx.drop_duplicates("gene_id", keep="first").reset_index(drop=True)
     print(f"  canonical tx rows: {len(canonical)}")
 
-    # Build per-gene table with canonical TSS, gene body span (gene record),
-    # and strand.
+    # Build per-gene table: gene body span and TSS from the gene record,
+    # strand, and the canonical transcript as an annotation.
     canonical_short = canonical[["gene_id", "transcript_id", "tag", "tsl",
                                  "length"]].rename(columns={"length": "tx_length",
                                                             "tag": "tx_tag",

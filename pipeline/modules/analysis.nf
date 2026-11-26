@@ -29,11 +29,11 @@ process GENE_RT {
     path coding
 
     output:
-    path "${id}.parquet"
+    tuple val(id), path("${id}.parquet")
 
     script:
     """
-    ${params.python} ${projectDir}/../scripts/gene_rt.py ${track} ${coding} ${id}.parquet
+    ${params.python} ${projectDir}/../scripts/gene_rt.py ${track} ${coding} '${id}.parquet' '${id}'
     """
 }
 
@@ -63,16 +63,18 @@ process ASSEMBLE {
     path sheet
     path histones
     path top5
-    path drug
-    path gene_rt
+    val drug_specs       // [condition, gene_rt parquet] pairs, in condition order
+    path drug_rt
+    path encode_rt
 
     output:
     path 'notebook_inputs', emit: inputs
 
     script:
+    def drug = drug_specs.collect { c, f -> "'${c}=${f.name}'" }.join(' ')
     """
-    ${params.python} ${projectDir}/../scripts/assemble_inputs.py ${sheet} ${histones} ${top5} notebook_inputs ${gene_rt}
-    mkdir -p notebook_inputs/drug && cp ${drug} notebook_inputs/drug/drug_per_gene.csv
+    ${params.python} ${projectDir}/../scripts/assemble_inputs.py ${sheet} ${histones} ${top5} notebook_inputs \\
+        --encode ${encode_rt} --drug ${drug}
     """
 }
 
@@ -133,26 +135,6 @@ process WAVELET_DRUG {
     script:
     """
     ${params.python} ${projectDir}/../scripts/wavelet_rt.py ${name}_rt_J7.bw ${fractions.join(' ')}
-    """
-}
-
-process DRUG_GENE_RT {
-    label 'small'
-    publishDir "${params.outdir}/drug", mode: 'copy'
-
-    input:
-    val specs            // [condition, track] pairs
-    path tracks
-    path coding
-    path histones
-
-    output:
-    path 'drug_per_gene.csv'
-
-    script:
-    def args = specs.collect { c, t -> "'${c}=${t.name}'" }.join(' ')
-    """
-    ${params.python} ${projectDir}/../scripts/drug_gene_rt.py ${coding} ${histones} drug_per_gene.csv ${args}
     """
 }
 
