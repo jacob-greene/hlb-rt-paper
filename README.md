@@ -15,7 +15,7 @@ nextflow run ../pipeline/main.nf -profile local
 ```
 
 The pipeline downloads all inputs from public sources, then executes the notebook.
-The methods are in [METHODS.md](METHODS.md).
+The methods are in [METHODS.md](METHODS.md) (with the drug-treatment data) and [METHODS_no_drug.md](METHODS_no_drug.md) (without it).
 
 ## Analysis
 
