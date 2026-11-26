@@ -15,7 +15,6 @@ nextflow run ../pipeline/main.nf -profile local
 ```
 
 The pipeline downloads all inputs from public sources, then executes the notebook.
-The methods are in [METHODS.md](METHODS.md) (with the drug-treatment data) and [METHODS_no_drug.md](METHODS_no_drug.md) (without it).
 
 ## Analysis
 
@@ -47,7 +46,7 @@ Put `slurm_options` in the params file, not on the command line: Nextflow reads 
 | `--qc` | `true` | Run the UW track QC |
 | `--python` | `../.venv/bin/python` | Python of the uv environment |
 
-A full run downloads about 7 GB (108 ENCODE tracks, 104 RNA-seq tables, 1 GTF, 96 UW fraction bigWigs, and the 3.4 GB drug archive). It takes about 1 hour on Slurm.
+A full run downloads about 7 GB (108 ENCODE tracks, 104 RNA-seq tables, 1 GTF, 96 UW fraction bigWigs, and the 3.4 GB drug archive). (~1 hour on Slurm)
 
 To rerun only the notebook on existing pipeline outputs, from the repository folder:
 
@@ -68,12 +67,3 @@ RT_DATA=run/results/notebook_inputs RT_FIGDIR=figures .venv/bin/jupyter nbconver
 | `FETCH_UW`, `REPROCESS_UW` | `qc/reprocessed_uw/` | QC: the 16 UW tracks rebuilt from their six fractions |
 | `QC_TRACKS` | `qc/track_qc/` | QC figures and correlation tables |
 
-| Repository path | Content |
-|---|---|
-| `analysis.ipynb` | The analysis, executed, with its plots |
-| `pipeline/` | Nextflow pipeline (`main.nf`, `nextflow.config`, `modules/`) |
-| `scripts/` | Python steps called by the pipeline |
-| `data/` | Sample sheets: accession or archive path, md5 and URL of every input file |
-| `figures/` | Figures (PDF and 300 dpi PNG), plotted values, and QC figures (`figures/qc/`) |
-| `docs/pipeline.png`, `docs/pipeline.dot` | Pipeline graph (Graphviz; render with `dot -Tpng -Gdpi=150 docs/pipeline.dot -o docs/pipeline.png`) |
-| `pyproject.toml`, `uv.lock` | Pinned Python environment |
