@@ -5,7 +5,7 @@ tracks of wavelet_rt.py. For every protein-coding gene:
   1. Gene signal. Mean value of the track intervals that overlap the gene body
      [start, end]. If no interval overlaps the gene (a short gene in a sparse
      track), the signal is interpolated linearly at the gene-body midpoint from
-     the nearest interval on each side, if these are at most 100 kb apart.
+     the nearest interval on each side, if these are at most 50 kb apart.
   2. Orientation. If the mean signal of 11 early housekeeping genes is lower than
      that of 6 late anchor genes, the signal is sign-flipped (high = early).
   3. Genome reference. Mean value of the intervals in each consecutive 10 kb bin
@@ -27,7 +27,7 @@ HOUSEKEEPING = ["ACTB", "GAPDH", "MYC", "POLR2A", "EEF1A1", "RPS18",
                 "RPL18", "TBP", "PPIA", "B2M", "HPRT1"]
 LATE_REF = ["DLG2", "PCDH7", "OLFM3", "ROBO2", "CSMD1", "AFM"]
 BIN = 10_000
-MAX_GAP = 100_000   # widest data gap bridged by interpolation
+MAX_GAP = 50_000    # widest data gap bridged by interpolation
 
 
 def read_track(path):
