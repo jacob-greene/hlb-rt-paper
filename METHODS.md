@@ -20,7 +20,9 @@ Protein-coding genes came from the GENCODE v44 lift37 basic annotation (20,176 g
 
 ## Replication-timing tracks
 
-We used the ENCODE processed replication-timing files as released, with no reprocessing: all 108 human files of output type *wavelet-smoothed signal* (bigWig, hg19) on the ENCODE portal (ENCODE Project Consortium 2020). They come from three assays: Repli-chip (86 files, Gilbert lab; Ryba et al. 2010), UW Repli-seq with six cell-cycle fractions (16 files, Stamatoyannopoulos lab; Thurman et al. 2007; Hansen et al. 2010) and early/late Repli-seq (6 files, Gilbert lab, ENCODE pipeline ENCPL734EDH; Marchal et al. 2018). The labs produced these signals with their own processing, as recorded on the ENCODE portal; ENCODE has no uniform replication-timing pipeline. | Assay | Files | Labels | Lab | Processing recorded by ENCODE | Assay reference |
+We used the ENCODE processed replication-timing files as released, with no reprocessing: all 108 human files of output type *wavelet-smoothed signal* (bigWig, hg19) on the ENCODE portal (ENCODE Project Consortium 2020). They come from three assays: Repli-chip (86 files, Gilbert lab; Ryba et al. 2010), UW Repli-seq with six cell-cycle fractions (16 files, Stamatoyannopoulos lab; Thurman et al. 2007; Hansen et al. 2010) and early/late Repli-seq (6 files, Gilbert lab, ENCODE pipeline ENCPL734EDH; Marchal et al. 2018). The labs produced these signals with their own processing, as recorded on the ENCODE portal; ENCODE has no uniform replication-timing pipeline. 
+
+| Assay | Files | Labels | Lab | Processing recorded by ENCODE | Assay reference |
 |---|---|---|---|---|---|
 | Repli-chip | 86 | 33 | David Gilbert, FSU | Lab processing of the early/late microarray signal; 16 files from the ENCODE2 UCSC composite `wgEncodeFsuRepliChip` | Ryba et al. 2010 |
 | Repli-seq (UW, 6 fractions) | 16 | 15 | John Stamatoyannopoulos, UW | ENCODE2 UCSC composite `wgEncodeUwRepliSeq`: weighted average of the cell-cycle fractions, wavelet-smoothed | Hansen et al. 2010 |
