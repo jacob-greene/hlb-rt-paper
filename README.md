@@ -19,4 +19,4 @@ For a Slurm cluster, other options and the full methods, see [METHODS.md](METHOD
 
 ## Analysis
 
-[`analysis.ipynb`](analysis.ipynb) holds the analysis and its plots. To open the notebook interactively, set `RT_DATA=run/results/notebook_inputs` (the pipeline run's `results/notebook_inputs`). The figures and their plotted values are in [`figures/`](figures/).
+[`analysis.ipynb`](analysis.ipynb) makes all the analysis plots. To open the notebook interactively, set `RT_DATA=run/results/notebook_inputs` (the pipeline run's `results/notebook_inputs`). The figures are in [`figures/`](figures/).
